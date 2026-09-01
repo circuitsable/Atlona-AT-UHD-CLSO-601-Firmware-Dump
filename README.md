@@ -1,6 +1,6 @@
 # Atlona AT-UHD-CLSO-601 Firmware Dump
 This is a flash dump of the AT-UHD-CLSO-601 (Rev C) HDMI switch's flash ICs.
-These can be used to recover from a failed firmware update, which would normally leave the device non functional, flashing an LED on the front panel and unresponsive via every method
+These can be used to recover from a failed firmware update, which would normally leave the device non functional, flashing an LED on the front panel and unresponsive via every method.
 The only Flash IC not included is the Microchip 25LC04AI (U39, on the top of the large board located near the ADV7850 BGA IC), which is normally blanked (All 0xF) and used to store custom EDIDs.
 
 ## Larger board
